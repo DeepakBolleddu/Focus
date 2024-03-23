@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://e9e5k4a8.rocketcdn.me/wp-content/uploads/2014/12/NewBlogDecember12th.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  color: #333; /* Text color */
+  background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Additional styling for links */
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #0056b3; /* Link color on hover */
+}
